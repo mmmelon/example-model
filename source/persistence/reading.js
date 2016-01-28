@@ -1,7 +1,9 @@
 /*
-Place here all your database read operations
+Place here all your database read operations and database collection declaration
 Try to make it as clear as possible
 */
+
+Tasks = new Mongo.Collection("Tasks");
 
 Task.Query = {};
 
